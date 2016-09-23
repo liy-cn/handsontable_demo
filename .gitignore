@@ -1,5 +1,47 @@
 *.class
 
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+target/
+classes/
+
+# Exclude the build directory
+build/*
+
+# Exclude temp nibs and swap files
+*~.nib
+
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+/.idea
+.idea/
+*.iml
+
+.git/
+
+.svn/
+*.pydevproject
+#.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
